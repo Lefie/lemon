@@ -4,7 +4,8 @@
 }
 
 .wrapper {
-  background-color: #023047;
+  /* background-color: #023047; */
+  background: linear-gradient(to bottom right, #023047 0%, #8ecae6 120% );  
   min-height: 100vh;
 }
 
@@ -115,7 +116,7 @@ a {
 }
 
 a:hover {
-  color:#219ebc;
+  color:#91e0f4;
   transition:0.2s;
 }
 
