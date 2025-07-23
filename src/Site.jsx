@@ -8,8 +8,8 @@ export default function Site(){
             
             <article className="dash">
                 <ul className="links">
-                    <a href="https://github.com/Lefie"><li>Github</li></a>
-                    <a href="https://www.linkedin.com/in/qiwen-lemon-ruan/"><li>LinkedIn</li></a>
+                    <li><a href="https://github.com/Lefie">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/qiwen-lemon-ruan/">LinkedIn</a></li>
                 </ul>
             </article>
             <section className="content-items">
@@ -24,9 +24,9 @@ export default function Site(){
                     <h1> Projects </h1>
                     <div className="projects-container">
                             <ul className="project-names">
-                                <a href="https://blog-frontend-1-nine.vercel.app/" target="_blank"><li>Blog App </li></a>
-                                <a href="https://reminder-bot-sigma.vercel.app/" target="_blank"><li>Reminder App </li></a>
-                                <a href="https://van-life-gold.vercel.app/" target="_blank"><li>Van Life App</li></a>
+                                <li><a href="https://blog-frontend-1-nine.vercel.app/" target="_blank">Blog App </a></li>
+                                <li><a href="https://reminder-bot-sigma.vercel.app/" target="_blank">Reminder App </a></li>
+                                <li><a href="https://van-life-gold.vercel.app/" target="_blank">Van Life App</a></li>
                             </ul>
                     </div>
                 </article>

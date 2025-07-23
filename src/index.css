@@ -106,7 +106,7 @@
   padding-bottom:0.2em;
   width:150px;
   text-align:center;
-  border-bottom: 1px solid #8ecae6;
+  border: 1px solid #8ecae6;
   font-size:1.5rem;
 }
 
@@ -116,7 +116,10 @@ a {
 }
 
 a:hover {
+  padding-left:10px;
+  padding-right:10px;
   color:#91e0f4;
+  background-color: #023047;
   transition:0.2s;
 }
 
