@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.wrapper {
+  background-color: #023047;
+  min-height: 100vh;
+}
+
+.content-container{
+  height: 100vh;
+  /* border:1px solid #8ecae6; */
+  margin-left:7em;
+  margin-right:7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dash {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  height: 7vh;
+  /* border:1px solid red; */
+  margin:1em;
+}
+
+.links {
+  color:white;
+  /* border:1px solid white; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.links li {
+  margin-right:1em;
+  font-size:1.5rem;
+}
+
+.content-items {
+  display: flex;
+  flex-direction: row;
+  /* border:1px solid #8ecae6; */
+  height:80vh;
+}
+
+.about {
+  /* border:1px solid #8ecae6; */
+  width:60%;
+  margin-left:2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:0.7em;
+  color: #8ecae6;
+  font-size:1.6rem;
+}
+
+.about h1 {
+  font-size:4rem;
+}
+
+#second-line {
+  margin-top:1em;
+}
+
+.projects {
+  /* border:1px solid #8ecae6; */
+  color:#8ecae6;
+  flex:1;
+  margin-right: 2.5em;
+  display: flex;
+  align-items: center;
+}
+
+.projects h1 {
+  font-size:2rem;
+  padding:1em;
+  align-self: flex-start;
+}
+
+.projects .projects-container{
+  /* border:1px solid #8ecae6; */
+  flex:1;
+}
+
+.project-names {
+  /* border:1px solid yellow; */
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.project-names li {
+  list-style-type: none;
+  margin-top:1.4em;
+  padding-bottom:0.2em;
+  width:150px;
+  text-align:center;
+  border-bottom: 1px solid #8ecae6;
+  font-size:1.5rem;
+}
+
+a {
+  color: #8ecae6;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#219ebc;
+  transition:0.2s;
+}
+
+a:active {
+  color:#c7edff;
+}
+
+
+
+
