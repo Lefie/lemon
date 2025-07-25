@@ -7,7 +7,7 @@
 .wrapper {
   /* background-color: #023047; */
   background: linear-gradient(to bottom right, #023047 0%, #8ecae6 120% );  
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .content-container{
@@ -26,7 +26,7 @@
   flex-direction: column;
   align-items: end;
   justify-content: center;
-  height: 7vh;
+  min-height: 7vh;
   /* border:1px solid red; */
   margin:1em;
 }
@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: row;
   /* border:1px solid #8ecae6; */
-  height:80vh;
+  min-height:80vh;
 }
 
 .about {
@@ -131,13 +131,8 @@ a:active {
 
 @media screen and (max-width: 800px) {
 
-  .wrapper {
-    min-height: 100dvh; 
-  }
 
-  
   .content-container{
-    
     margin-left:0;
     margin-right:0;
     min-height: auto;
