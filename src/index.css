@@ -55,7 +55,7 @@
 .about {
   /* border:1px solid #8ecae6; */
   width:60%;
-  margin-left:2.5em;
+  margin:2em auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +72,7 @@
   margin-top:1em;
 }
 
-.projects {
+.projects, .creative-projects h1 {
   /* border:1px solid #8ecae6; */
   color:#8ecae6;
   flex:1;
@@ -81,7 +81,7 @@
   align-items: center;
 }
 
-.projects h1 {
+.creative-projects h1, .projects h1 {
   font-size:2rem;
   padding:1em;
   align-self: flex-start;
